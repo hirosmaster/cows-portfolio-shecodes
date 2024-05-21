@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #ecfafc;
+  --secondary-color: #1081ea;
+  --font-family: "Poppins";
+}
+
+body {
+  background: var(--primary-color) !important;
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 80px !important;
+  font-weight: 800 !important;
+}
+p {
+  font-family: var(--font-family);
+  font-size: 24px !important;
+  font-weight: normal;
+}
+
+#home {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.view {
+  margin-top: 33px;
+  padding: 18px 30px;
+  border-radius: 10px;
+  border: var(--secondary-color);
+  color: black;
+  width: 300px;
+}
+
+.view:hover {
+  margin-top: 33px;
+  padding: 18px 30px;
+  border-radius: 10px;
+  border: var(--secondary-color);
+  color: white;
+  width: 300px;
+  font-weight: bold;
+  background-image: url(cows/hover.png);
+}
+.nav-link {
+  color: var(--secondary-color) !important;
+  text-align: right !important;
+}
+
+.intro {
+  font-family: var(--font-family);
+  font-size: 24px;
+  margin-top: 120px;
+  margin: 50px;
+}
+
+.work {
+  background: white !important;
+}
+
+.cowboy {
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 25px 96px;
+  background-image: url(cows/button.png);
+  border: 3px solid black;
+  border-radius: 20px !important;
+}
+
+.row {
+  border: 1px solid black;
+}
