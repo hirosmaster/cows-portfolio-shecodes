@@ -34,7 +34,7 @@ p {
   margin-top: 33px;
   padding: 18px 30px;
   border-radius: 10px;
-  border: var(--secondary-color);
+  border: 3px solid black;
   color: black;
   width: 300px;
 }
@@ -43,7 +43,7 @@ p {
   margin-top: 33px;
   padding: 18px 30px;
   border-radius: 10px;
-  border: var(--secondary-color);
+  border: 3px solid white;
   color: white;
   width: 300px;
   font-weight: bold;
@@ -77,8 +77,25 @@ button {
   background-image: url(cows/button.png);
   border: 3px solid black;
   border-radius: 20px !important;
+  color: black;
 }
 
-.row {
-  border: 1px solid black;
+button:hover {
+  padding: 25px 96px;
+  background-image: url(cows/hover.png);
+  border: 3px solid white;
+  border-radius: 20px !important;
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Poppins";
+  font-size: 30px;
+}
+
+#contact {
+  background: var(--primary-color);
+  text-align: center;
+  align-items: center;
 }
