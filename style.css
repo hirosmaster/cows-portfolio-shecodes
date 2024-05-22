@@ -37,6 +37,7 @@ p {
   border: 3px solid black;
   color: black;
   width: 300px;
+  background-image: url(cows/button.png);
 }
 
 .view:hover {
@@ -72,7 +73,7 @@ p {
   border-radius: 10px;
 }
 
-button {
+.moomoo {
   padding: 25px 96px;
   background-image: url(cows/button.png);
   border: 3px solid black;
@@ -80,7 +81,7 @@ button {
   color: black;
 }
 
-button:hover {
+.moomoo:hover {
   padding: 25px 96px;
   background-image: url(cows/hover.png);
   border: 3px solid white;
@@ -98,4 +99,8 @@ h3 {
   background: var(--primary-color);
   text-align: center;
   align-items: center;
+}
+
+.navbar-toggler {
+  background-image: url(cows/hover.png);
 }
