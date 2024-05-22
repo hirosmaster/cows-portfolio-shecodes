@@ -133,5 +133,19 @@
         </div>
       </div>
     </div>
+    <script>
+      var sound = new Audio();
+      sound.src = "media/moo.mp3";
+      function playSound() {
+        sound.play();
+      }
+      var button = document.getElementById("moosound");
+      var buttonMoo = document.getElementById("pressmoo");
+      var mooButton = document.getElementById("moopress");
+
+      button.addEventListener("click", playSound);
+      buttonMoo.addEventListener("click", playSound);
+      mooButton.addEventListener("click", playSound);
+    </script>
   </body>
 </html>
