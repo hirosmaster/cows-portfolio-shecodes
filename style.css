@@ -104,3 +104,32 @@ h3 {
 .navbar-toggler {
   background-image: url(cows/hover.png);
 }
+
+#contact {
+  margin-top: 100px;
+  padding: 30px;
+}
+
+#contact h3 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  margin: 30px;
+}
+
+#contact p {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.ig {
+  width: 30px;
+  padding-right: 5px;
+}
+
+.iglink {
+  color: black;
+  font-size: 15px;
+  font-weight: 250;
+}
