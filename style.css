@@ -21,7 +21,7 @@ h2 {
 }
 p {
   font-family: var(--font-family);
-  font-size: 24px !important;
+  font-size: 24px;
   font-weight: normal;
 }
 
@@ -132,4 +132,28 @@ h3 {
   color: black;
   font-size: 15px;
   font-weight: 250;
+}
+
+#homefooter p {
+  margin-top: 500px;
+  line-height: 25px;
+  text-align: center;
+  color: gray;
+  font-size: 10px;
+  font-family: "Poppins", serif;
+}
+
+#homefooter a {
+  color: darkcyan;
+}
+
+#workfooter p {
+  margin-top: 30px;
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+
+#workfooter a {
+  color: darkcyan;
 }
