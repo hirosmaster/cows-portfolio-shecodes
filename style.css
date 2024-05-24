@@ -4,6 +4,8 @@
   --font-family: "Poppins";
 }
 
+/*index*/
+
 body {
   background: var(--primary-color) !important;
 }
@@ -14,11 +16,12 @@ h1 {
   font-weight: 600;
 }
 
-h2 {
+#love-cows {
   font-family: "Playfair Display", serif;
-  font-size: 80px !important;
-  font-weight: 800 !important;
+  font-size: 75px;
+  font-weight: 600;
 }
+
 p {
   font-family: var(--font-family);
   font-size: 24px;
@@ -55,6 +58,7 @@ p {
   text-align: right !important;
 }
 
+/*work*/
 .intro {
   font-family: var(--font-family);
   font-size: 24px;
@@ -62,26 +66,34 @@ p {
   margin: 50px;
 }
 
-.work {
+#work {
   background: white !important;
 }
 
-.cowboy {
+#work h2 {
+  margin-top: 100px;
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.work-cows {
   margin-top: 50px;
-  margin-left: 60px;
-  width: 500px;
+  width: 400px;
   border-radius: 10px;
 }
 
-.moomoo {
-  padding: 25px 96px;
+#work button {
+  padding: 20px 60px;
   background-image: url(cows/button.png);
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 20px !important;
   color: black;
+  margin: 20px;
 }
 
-.moomoo:hover {
+#work button:hover {
   padding: 25px 96px;
   background-image: url(cows/hover.png);
   border: 3px solid white;
@@ -90,10 +102,15 @@ p {
   font-weight: bold;
 }
 
+#work p {
+  margin: 5px;
+}
+
 h3 {
   font-family: "Poppins";
   font-size: 30px;
 }
+/*contact*/
 
 #contact {
   background: var(--primary-color);
@@ -156,4 +173,52 @@ h3 {
 
 #workfooter a {
   color: darkcyan;
+}
+
+@media (max-width: 768px) {
+  #work button {
+    padding: 5px 36px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    width: 180px;
+  }
+  #work button:hover {
+    padding: 5px 36px;
+    background: black;
+    color: white;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  #work h2 {
+    font-size: 35px;
+  }
+  #work p {
+    font-size: 20px;
+  }
+  #contact h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: left !important;
+  }
+  #contact p {
+    font-size: 15px;
+    text-align: left !important;
+    margin: 0;
+    padding: 0;
+  }
+  .iglink {
+    font-size: 15px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  #workfooter p,
+  a {
+    font-size: 12px;
+  }
 }
